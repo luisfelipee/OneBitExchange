@@ -14,6 +14,7 @@ $(document).ready ->
                   target_currency: $("#target_currency").val(),
                   amount: $("#amount").val()
                 }
+                  
           error: (jqXHR, textStatus, errorThrown) ->
             alert textStatus
           success: (data, text, jqXHR) ->
